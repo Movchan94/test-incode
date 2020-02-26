@@ -1,3 +1,91 @@
-.stock-ticker {
 
+
+
+.stock-ticker {
+    grid-area: article;
+    background-color: blanchedalmond;
+    display: grid;
+    grid-template-columns:  200px 200px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-gap: 5px;
+    justify-content: center;
+    text-align: center;
+}
+.ticker-name {
+    background-color: lightblue;
+    padding-top: 15px;
+}
+.ticker-value {
+    background-color: white;
+    padding-top: 15px;
+}
+
+
+.exchange-name {
+    background-color: lightblue;
+    padding-top: 15px;
+}
+.exchange-value {
+    background-color: white;
+    padding-top: 15px;
+}
+
+
+.price-name {
+    background-color: lightblue;
+    padding-top: 15px;
+}
+.price-value {
+    background-color: white;
+    padding-top: 15px;
+}
+
+
+.change-name {
+    background-color: lightblue;
+    padding-top: 15px;
+}
+.change-value {
+    background-color: white;
+    padding-top: 15px;
+}
+
+
+.percent-change-name {
+    background-color: lightblue;
+    padding-top: 15px;
+}
+.percent-change-value {
+    background-color: white;
+    padding-top: 15px;
+}
+
+
+.last-trade-time-name {
+    background-color: lightblue;
+    padding-top: 15px;
+}
+.last-trade-time-value {
+    background-color: white;
+    padding-top: 15px;
+}
+
+
+.dividend-name {
+    background-color: lightblue;
+    padding-top: 15px;
+}
+.dividend-value {
+    background-color: white;
+    padding-top: 15px;
+}
+
+
+.yeild-name {
+    background-color: lightblue;
+    padding-top: 15px;
+}
+.yeild-value {
+    background-color: white;
+    padding-top: 15px;
 }
